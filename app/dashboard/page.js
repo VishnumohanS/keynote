@@ -17,7 +17,7 @@ export default function DashboardPage() {
   const [selectedTopic, setSelectedTopic] = useState("")
   const [user, setUser] = useState(null)
 
-  const topics = ["Scales", "Chords", "Harmony", "Rhythm", "Melody", "Theory", "Composition", "Analysis", "Other"]
+  const topics = ["Scales", "Chords", "Harmvbn ony", "Rhythm", "Melody", "Theory", "Composition", "Analysis", "Other"]
 
   useEffect(() => {
     checkAuth()
